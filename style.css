@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 800%;
+    color: lemonchiffon;
+    background-color: lightpink;
+    text-align: center;
+}
+
+
+button {
+    z-index: 0;
+    width: 5em;
+    height: 2em;
+    font-size: 17em;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30em;
+    color: lightpink;
+    background-color: lemonchiffon;
+    border: pink 8px solid;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.knoppen-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgba(248, 211, 175, 0.8);
+    padding: 3em 0em 3em 0em;
+    border-radius: 7em;
+    border: lemonchiffon 1em solid;
+    position: absolute;
+    top: 50%;
+    right: 60%;
+    transform: translate(-50%, -50%);
+}
+  
+.kleurknop {
+    height: 2em;
+    width: 7em;
+    padding-top: 0.3em;
+    border-radius: 5em;
+    text-align: center;
+    font-size: 7em;
+    color: lemonchiffon;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+  
+.kleurknop:hover {
+    transform: scale(1.05);
+}
+  
+/* Unieke kleuren */
+#geleknop { background-color: #fae9ce; color: lightpink; border: lightpink 0.1em solid; }
+#rozeknop { background-color: #e99ba8; border: lemonchiffon 0.1em solid; }
+#groeneknop { background-color: #c9d6a6; border: lemonchiffon 0.1em solid; }
+#blauweknop { background-color: #c3ced8; border: lemonchiffon 0.1em solid; }
+#bruineknop { background-color: #655243; border: lemonchiffon 0.1em solid; }
+#grijzeknop { background-color: #a29993; border: lemonchiffon 0.1em solid; }
+
+/*img {
+   zoom: 1.3;
+} */
+
+#wit {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#geel {
+    display: none;
+    position: absolute;
+    top: 49.5%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+}
+
+
+#roze {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#groen {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}   
+
+#blauw {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}   
+
+#bruin {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#grijs {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+#volgende {
+    display: none;
+    z-index: 0;
+    width: 5em;
+    height: 2em;
+    font-size: 7em;
+    border-radius: 30em;
+    color: lemonchiffon;
+    background-color:rgba(248, 211, 175);;
+    border: lemonchiffon 8px solid;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#feed {
+    display: none;
+    height: 3em;
+    width: 10em;
+    font-size: 5em;
+    border-radius: 30em;
+    color: lemonchiffon;
+    background-color: lightpink;
+    border: lemonchiffon 8px solid;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+#pet {
+    display: none;
+    height: 3em;
+    width: 10em;
+    font-size: 5em;
+    border-radius: 30em;
+    color: lemonchiffon;
+    background-color: lightpink;
+    border: lemonchiffon 8px solid;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+#sillygeel, #sillyroze, #sillygroen, #sillyblauw, #sillybruin, #sillygrijs {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
